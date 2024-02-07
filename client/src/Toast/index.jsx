@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { useSelector } from 'react-redux';
-import { ToastContainer, toast } from 'react-toastify';
+import { Toaster, toast } from 'react-hot-toast';
 import 'react-toastify/dist/ReactToastify.css';
 
 function Toast() {
@@ -14,8 +14,8 @@ function Toast() {
     }, [message, success])
 
     return (
-        <ToastContainer />
+        <Toaster />
     );
 }
 
-export default Toast
+export default Toast;

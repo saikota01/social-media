@@ -5,8 +5,6 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { applyMiddleware, createStore } from 'redux';
-import logger from 'redux-logger';
-import { countReducer } from './reducers/countReducer';
 import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
 import { userReducer } from './reducers/userReducer';
